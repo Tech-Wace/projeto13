@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#unidades{
+    margin: 0 120px;
+    background-color: aqua;
+}
+
+#unidades #cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    background-color: blue
+}
+
+.card-unidade{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+#produtos{
+    margin: 0 150px;
+    background-color: chartreuse;
+}
+
+#cards-produtos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card-produto{
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
