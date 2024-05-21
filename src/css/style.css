@@ -48,6 +48,7 @@ nav ul li i{
 }
 
 .banner img{ 
+    display: block;
     margin: 5px 20%;
     width: 60%;
     border-radius: 20px;
@@ -90,4 +91,17 @@ nav ul li i{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+footer{
+    padding: 30px;
+    background-color: #000;
+    text-align: center;
+    
+}
+
+footer i{
+    font-size: 30px;
+    color: white;
+    padding: 0 20px;
 }
